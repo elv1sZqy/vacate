@@ -1,0 +1,18 @@
+logging:
+  level:
+    com:
+      tsu:
+        xjq: trace
+server:
+  port: 81
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    password: root
+    url: jdbc:mysql://127.0.0.1:3306/vacate?useUnicode=true&characterEncoding=UTF-8
+    username: root
+
+
+my-data-source:
+  enable: true
+
